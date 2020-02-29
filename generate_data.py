@@ -10,7 +10,7 @@ def save_data(X_train, X_test, y_train, y_test, name):
     y_test.to_csv('./splits/' + name + '_y_test.csv', header=True, index=False)
 
 
-
+name = 'two_features'
 
 
 

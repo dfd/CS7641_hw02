@@ -1,3 +1,5 @@
+source activate CS7641_A2
+
 # neural network scripts
 ./neural_network5.py
 ./neural_network5_analysis.py

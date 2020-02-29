@@ -1,5 +1,8 @@
 source activate CS7641_A2
 
+# generate data
+python ./generate_data.py
+
 # neural network scripts
 ./run_nn5.sh
 ./run_nn5_analysis.sh

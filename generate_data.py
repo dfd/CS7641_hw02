@@ -33,7 +33,7 @@ df1 = pd.DataFrame({'y': y,
 
 #df1.to_csv('candidate_datasets/own/two_features.csv', index=False)
 X_train, X_test, y_train, y_test = train_test_split(df1[['x1', 'x2']],
-                                                    y,
+                                                    pd.DataFrame({'y':y}),
                                                     test_size=0.25,
                                                     random_state=0)
 save_data(X_train, X_test, y_train, y_test, name)

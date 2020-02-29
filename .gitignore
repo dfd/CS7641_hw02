@@ -1,0 +1,11 @@
+candidate_datasets
+candidate_pngs
+*.sw*
+*.*swp
+*.csv
+*.txt
+*.png
+*.pdf
+*.pkl
+__pycache__/
+logs/

@@ -1,0 +1,1 @@
+python discrete_optimization7.py k_Color Knapsack Four_Peaks

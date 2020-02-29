@@ -1,0 +1,1 @@
+python discrete_optimization10.py k_Color

@@ -1,18 +1,18 @@
 source activate CS7641_A2
 
 # neural network scripts
-python ./neural_network5.py
-python ./neural_network5_analysis.py
-python ./neural_network8.py
-python ./neural_network8_analysis.py
-python ./neural_network9.py
-python ./neural_network9_analysis.py
-python ./neural_network_final.py
-python ./neural_network_final_analysis.py
+./run_nn5.sh
+./run_nn5_analysis.sh
+./run_nn8.sh
+./run_nn8_analysis.sh
+./run_nn9.sh
+./run_nn9_analysis.sh
+./run_nn_final.sh
+./run_nn_final_analysis.sh
 
 # discrete problems
-python ./discrete_optimization9.py
-python ./discrete_optimization10.py
-python ./discrete_optimization_hp_tuning.py
-python ./discrete_optimization_problem_complexity.py
+./run_discrete9.sh
+./run_discrete10.sh
+./run_discrete_hps.sh
+./run_discrete_problem_complexity.sh
 
